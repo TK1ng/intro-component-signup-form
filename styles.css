@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding:5.8rem 2rem;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  background-image: url('images/bg-intro-mobile.png');
+  background-color: #ff7978;
+}
+
+.heading {
+  margin-bottom: 3rem;
+}
+
+.heading h2 {
+  margin-bottom: 2rem;
+}
+
+.promo-label {
+  margin-bottom: 1.5rem;
+  background-color:#5e54a3;
+  border-radius: 10px;
+  padding: 5% 15%;
+  box-shadow: 0 10px 0 #be6969ef;
+}
+
+.try-free {
+  font-weight: bold;
+}
+
+.signup-form {
+  background-color: #fff;
+  padding: 10% 5%;
+  border-radius: 10px;
+}
+
+.signup-form input {
+  width: 80%;
+  padding: 5%;
+  margin-bottom:4%;
+}
