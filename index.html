@@ -12,17 +12,6 @@
 
   <title>Frontend Mentor | Intro component with sign up form</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
@@ -42,19 +31,20 @@
 
   <div class="signup-form">
     <form>
-      <input type="text" name="firstname" value="First Name"><br>
-      <input type="text" name="lastname" value="Last Name"><br>
-      <input type="text" name="email" value="Email Address"><br>
-      <input type="text" name="password" value="Password"><br><br>
-      <input type="submit" value="Claim your free trial">
+      <input class="form-input" type="text" name="firstname" placeholder="First Name"><br>
+      <input class="form-input" type="text" name="lastname" placeholder="Last Name"><br>
+      <input class="form-input" type="text" name="email" placeholder="Email Address"><br>
+      <input class="form-input" type="text" name="password" placeholder="Password"><br><br>
+      <input class="form-btn" type="submit" value="CLAIM YOUR FREE TRIAL">
     </form>
-    <p>By clicking the button, you are agreeing to our <span class="terms">Terms and Services</span></p>
+    <p class="terms">By clicking the button, you are agreeing to our <span class="terms-link">Terms and Services</span>
+    </p>
   </div>
 
   <footer>
     <p class="attribution">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.<br> Coded by <a
         href="https://www.kingcodes.dev">Taryn King</a>.
     </p>
   </footer>

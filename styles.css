@@ -26,7 +26,7 @@ body {
   background-color:#5e54a3;
   border-radius: 10px;
   padding: 5% 15%;
-  box-shadow: 0 10px 0 #be6969ef;
+  box-shadow: 0 8px 0 #be69697e;
 }
 
 .try-free {
@@ -37,10 +37,52 @@ body {
   background-color: #fff;
   padding: 10% 5%;
   border-radius: 10px;
+
 }
 
-.signup-form input {
+.form-input {
   width: 80%;
   padding: 5%;
   margin-bottom:4%;
+  border: 2px solid whitesmoke;
+  color: grey;
+  border-radius: 5px;
+  outline-color:#5e54a3;
+}
+
+.signup-form p {
+  font-size: .7rem;
+  padding: 0 5%;
+}
+
+.form-btn {
+  color: white;
+  background-color: rgb(86, 204, 139);
+  border-radius: 5px;
+  box-shadow:0 5px 0 rgba(103, 196, 144, 0.699);
+  width: 90%;
+  padding: 7%;
+  border: none;
+  outline: none;
+}
+
+.terms {
+  color: grey;
+  margin-top: 5%;
+  font-size: .3rem;
+}
+
+.terms-link {
+  color: rgb(206, 120, 7);
+  font-weight: bold;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 15%;
+}
+
+.attribution a {
+  color: hsl(258, 45%, 44%);
 }
